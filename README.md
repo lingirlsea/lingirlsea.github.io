@@ -1,6 +1,8 @@
 ## Git便捷文档及常用命令说明
 
-#### 初次运行前的配置
+#### 配置
+
+###### 初次运行前的配置
 Git 自带一个 <code>git config</code> 的工具来帮助设置控制 Git 外观和行为的配置变量。 这些变量存储在三个不同的位置：
 
 &emsp;1、<code>/etc/gitconfig</code> 文件: 包含系统上每一个用户及他们仓库的通用配置。 如果使用带有 <code>--system</code> 选项的 <code>git config</code> 时，它会从此文件读写配置变量。
@@ -13,7 +15,7 @@ Git 自带一个 <code>git config</code> 的工具来帮助设置控制 Git 外�
 
 
 
-#### 用户信息
+###### 用户信息
 <pre>
 $ git config --global user.name "lingirlsea"
 $ git config --global user.email lingirlsea@email.com
@@ -22,7 +24,7 @@ $ git config --global user.email lingirlsea@email.com
 
 
 
-#### 检查配置信息
+###### 检查配置信息
 <pre>
 $ git config --list
 </pre>
