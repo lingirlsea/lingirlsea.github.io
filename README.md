@@ -35,3 +35,36 @@ $ git config --list
 <pre>
 $ git config user.name
 </pre>
+
+
+#### 2、获取帮助
+若你使用 Git 时需要获取帮助，有三种方法可以找到 Git 命令的使用手册：
+<pre>
+<code>
+$ git help <verb>
+$ git <verb> --help
+$ man git- <verb>
+</code>
+</pre>
+例如，要想获得 config 命令的手册，执行
+<pre>
+$ git help config
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
