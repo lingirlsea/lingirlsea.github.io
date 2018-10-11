@@ -42,7 +42,7 @@ $ git config user.name
 <pre>
 $ git help &lt;verb&gt;
 $ git &lt;verb&gt --help
-$ man git- &lt;verb&gt
+$ man git-&lt;verb&gt
 </pre>
 例如，要想获得 config 命令的手册，执行
 <pre>
