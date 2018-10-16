@@ -56,7 +56,7 @@ $ git help config
 $ git init
 
 // 添加跟踪文件
-$ git add &lt;code&gt;filename&gt;/code&gt;
+$ git add <code>filename</code>
 </pre>
 
 
