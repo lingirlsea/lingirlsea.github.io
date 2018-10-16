@@ -49,9 +49,15 @@ $ man git-&lt;verb&gt
 $ git help config
 </pre>
 
+#### 3、常用命令
 
+<pre>
+// 在现有项目中初始化仓库
+$ git init
 
-
+// 添加跟踪文件
+$ git add &lt;code&gt;filename&gt;/code&gt;
+</pre>
 
 
 
