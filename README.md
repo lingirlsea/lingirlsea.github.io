@@ -1,6 +1,6 @@
 ## Git便捷文档及常用命令说明
 
-#### 1、配置
+#### 配置
 
 ###### 初次运行前的配置
 Git 自带一个 <code>git config</code> 的工具来帮助设置控制 Git 外观和行为的配置变量。 这些变量存储在三个不同的位置：
@@ -37,7 +37,7 @@ $ git config user.name
 </pre>
 
 
-#### 2、获取帮助
+#### 获取帮助
 若你使用 Git 时需要获取帮助，有三种方法可以找到 Git 命令的使用手册：
 <pre>
 $ git help &lt;verb&gt;
@@ -49,21 +49,38 @@ $ man git-&lt;verb&gt
 $ git help config
 </pre>
 
-#### 3、常用命令
-
-<pre>
-// 在现有项目中初始化仓库
-$ git init
-
-// 添加跟踪文件
-$ git add <code>filename</code>
-</pre>
+#### 常用命令
 
 
+- 在现有项目中初始化仓库
+> $ git init
 
 
+- 克隆仓库
+> git clone <code>url</code>
 
 
+- 克隆仓库并重命名
+> git clone <code>url</code> <code>rename</code>
+
+
+- 添加跟踪文件或将变化文件提交到暂存区
+> $ git add <code>filename</code>
+
+
+- 提交
+> $ git commit
+>
+>  <code>-m, --message</code> &lt;message&gt; 将暂存区的文件提交至本地git仓库
+
+
+- 检查当前状态
+> $ git status
+>
+> <code>-s</code> <font size=6>状态简览</font>
+> - 新添加的未跟踪文件前面有 <code>??</code> 标记
+> - 新添加到暂存区中的文件前面有 <code>A</code> 标记
+> - 修改过的文件前面有 <code>M</code> 标记，右边的 <code>M</code> 表示该文件被修改了但是还没放入暂存区，左边的 <code>M</code> 表示该文件被修改了并放入了暂存区
 
 
 
