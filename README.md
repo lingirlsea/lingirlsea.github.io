@@ -104,6 +104,99 @@ $ git help config
 > 
 
 
+- 查看提交历史
+> $ git log
+> 
+> - 不加参数，按提交时间列出所有的更新，最近的更新排在最上面
+
+> - <code>-n</code>                  显示最近的 <code>n</code> 条记录
+
+> - <code>-p</code>                  按补丁格式显示每个更新之间的差异
+
+> - <code>--stat</code>              显示每次更新的文件修改统计信息
+
+> - <code>--shortstat</code>         只显示 <code>--stat</code> 中最后的行数修改添加移除统计
+
+> - <code>--name-only</code>         仅在提交信息后显示已修改的文件清单
+
+> - <code>--name-status</code>       显示新增、修改、删除的文件清单
+
+> - <code>--abbrev-commit</code>     仅显示 SHA-1 的前几个字符，而非所有的 40 个字符
+
+> - <code>--relative-date</code>     使用较短的相对时间显示（比如，“2 weeks ago”）
+
+> - <code>--graph</code>             显示 ASCII 图形表示的分支合并历史
+
+> - <code>--since, --after</code>    仅显示指定时间之后的提交
+>   <br><br><pre>--since=2.weeks | 2008-01-15 | 2 years 1 day 3 minutes ago ...</pre>
+
+> - <code>--until, --before</code>   仅显示指定时间之前的提交
+
+> - <code>--author</code>            仅显示指定作者相关的提交
+
+> - <code>--committer</code>         仅显示指定提交者相关的提交
+
+> - <code>--grep</code>              仅显示含指定关键字的提交
+
+> - <code>-S</code>                  仅显示添加或移除了某个关键字的提交
+
+> - <code>--pretty=oneline|short|full|fuller|format</code> 指定使用不同于默认格式的方式展示提交历史
+>   <br><br><pre>--pretty=format:"%h - %an, %ar : %s" 定制要显示的记录格式，这样的输出对后期提取分析格外有用
+    <br><code>%H</code>     提交对象（commit）的完整哈希字串
+    <br><code>%h</code>     提交对象的简短哈希字串
+    <br><code>%T</code>     树对象（tree）的完整哈希字串
+    <br><code>%t</code>     树对象的简短哈希字串
+    <br><code>%P</code>     父对象（parent）的完整哈希字串
+    <br><code>%p</code>     父对象的简短哈希字串
+    <br><code>%an</code>    作者（author）的名字
+    <br><code>%ae</code>    作者的电子邮件地址
+    <br><code>%ad</code>    作者修订日期（可以用 --date= 选项定制格式）
+    <br><code>%ar</code>    作者修订日期，按多久以前的方式显示
+    <br><code>%cn</code>    提交者（committer）的名字
+    <br><code>%ce</code>    提交者的电子邮件地址
+    <br><code>%cd</code>    提交日期
+    <br><code>%cr</code>    提交日期，按多久以前的方式显示
+    <br><code>%s</code>     提交说明   
+  </pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
