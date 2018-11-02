@@ -4,9 +4,28 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>git简明文档</title>
 </head>
 <body>
-	1321541654
+	- 添加
+> $ git add 
+> - <code>filename</code> 将指定文件添加到跟踪或提交到暂存区
+
+
+- 提交
+> $ git commit
+> - 不加参数，默认启用文本编辑器以便输入提交信息
+> - <code>-m, --message</code> &lt;message&gt; 将暂存区的文件提交至本地Git仓库
+> - <code>-a -m</code> 跳过 git add，自动把所有已经跟踪过的文件暂存起来一并提交
+
+
+- 状态
+> $ git status
+>
+> <code> -s, --short </code> 状态简览
+> - 新添加的未跟踪文件前面有 <code>??</code> 标记
+> - 新添加到暂存区中的文件前面有 <code>A</code> 标记
+> - 修改过的文件前面有 <code>M</code> 标记，右边的 <code>M</code> 表示该文件被修改了但是还没放入暂存区，左边的 <code>M</code> 表示该文件被修改了并放入了暂存区
+
 </body>
 </html>
